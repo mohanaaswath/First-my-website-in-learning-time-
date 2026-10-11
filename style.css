@@ -1,0 +1,1053 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 10%;
+    align-items: center;
+    z-index: 100;
+    background: transparent;
+    background-color:whitesmoke;
+}
+#header h1{
+    position: relative;
+    font-size: 25px;
+    color: rgb(5, 126, 173);
+    text-decoration: none;
+    font-weight: 600;
+}
+#navbar a{
+    display: inline-block; 
+    font-size: 25px;
+    color: rgb(231, 10, 10);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 25px;
+}
+#header h1:hover{
+    color: aqua;
+    background-color: black;
+    border-radius: 5px;
+}
+#navbar a:hover{
+    color: aqua;
+    background-color: black;
+    border-radius: 5px;
+    transition: background-position 0.5s ease;
+}
+
+
+#Home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+#home-container{
+    position: relative;
+    padding: auto;
+    top: 30px;
+}
+#home-container h3{
+    font-size: 30px;
+    padding: 15px ;
+}
+#title{
+    color: darkmagenta;
+}
+#home-container span{
+    font-size:40px;
+    padding: 10px;
+    color: yellow ;
+    font-weight: 200;
+    padding-left: 30px;
+    text-shadow: 2px 2px 4px black ,-2px -2px 4px black;
+}
+#home-container span:hover{
+    color: aqua;
+}
+#home-container p{
+   width: 500px;
+   position: relative;
+    font-size:25px ;
+    left: 60px;
+    color: black;
+}
+#home-container p strong{
+    color: red
+}
+#home-container img{
+    position: relative;
+    left:280px;
+    top: -130px;
+    box-shadow: 2px 2px 4px black ,-2px -2px 4px black;
+    border-radius: 10px;
+}
+#button-control-1{
+    padding: 3px;
+    margin: 2px;
+    position: relative;
+    top: 100px;
+    font-size: 18px;
+    left: 25px;
+    color: black;
+    background-color: rgb(15, 160, 218);
+    border: 2px solid rgb(15, 160, 218);
+    border-radius: 8px;
+}
+#button-control-2{
+    padding: 3px;
+    margin: 2px;
+    position: relative;
+    top: 100px;
+    font-size: 18px;
+    left: 25px;
+    color: black;
+    background-color: rgb(15, 160, 218);
+    border: 2px solid rgb(15, 160, 218);
+    border-radius:8px;
+}
+#button-control-3{
+    padding: 3px;
+    margin: 2px;
+    position: relative;
+    top: 100px;
+    font-size: 18px;
+    left: 25px;
+    color: black;
+    background-color: rgb(15, 160, 218);
+    border: 2px solid rgb(15, 160, 218);
+    border-radius:8px;
+}
+#button-control-1:hover{
+    color: aqua;
+    background-color: black;
+}
+#button-control-2:hover{
+    color: aqua;
+    background-color: black;
+}
+#button-control-3:hover{
+    color: aqua;
+    background-color: black;
+}
+#About{
+   position:relative ;
+   padding: 8px 10%;
+   height: 100vh;
+}
+#about-container{
+    position: relative;
+    padding: auto;
+    top:18px ;
+}
+#about-container h1{
+    position: relative;
+    left: 500px;
+    color: rgb(12, 179, 245);
+    width: 200px;
+    top:65px ;
+}  
+/* #about-container h1:hover{
+    color: black;
+} */
+#about-container img{
+    position: relative;
+    left: -50px;
+    border-radius:10px;
+    top: 100px;
+    box-shadow: 2px 2px 4px black ,-2px -2px 4px black;
+}
+#about-container p{
+    position: relative;
+    left: 75px;
+    border-radius: 5px;
+    top: 100px;
+    font-size: 25px;
+}
+#about-container h3{
+    position: relative;
+    font-size: 30px;
+    top: 120px;
+    left: 75px;
+    color: red;
+}
+#front{
+    position: relative;
+    top: 130px;
+    left:75px ;
+    font-size: 18px;
+    color:rgb(156, 7, 7);
+}
+#back{
+    position: relative;
+    top:140px ;
+    left: 75px ;
+    font-size:18px ;
+    color:rgb(156, 7, 7);
+}
+#tools{
+    position: relative;
+    top: 160px;
+    left: 75px;
+    font-size: 18px;
+    color:rgb(156, 7, 7);
+}
+#about-container button{
+    position: relative;
+    top:180px;
+    left:75px;
+    color: red;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px black ,-2px -2px 5px black;
+    border-radius: 8px;
+    padding: 2px;
+    border: 2px solid white;
+}
+#about-container button:hover{
+    color: aqua;
+    background-color: black;
+    transform: scale(1.1);
+}
+#front strong {
+    color:darkblue;
+}
+#back strong {
+    color:darkblue;
+}
+#tools strong{
+    color:darkblue;
+}
+#Services{
+   position:relative ;
+   padding: 8px 10%;
+   width: 100%;
+   height: 100vh;
+}
+#service-container{
+    position: relative;
+    padding: auto;
+    top:60px ;
+}
+#service-container h1{
+    position: relative;
+    left: 500px;
+    color:  rgb(12, 179, 245);
+    width: 150px;
+    top:60px ;
+    height: 20px;
+}  
+/* #service-container h1:hover{
+    color: aqua;
+} */
+#service-container-1{
+    position: relative;
+    top:180px;
+    display: flex;
+    justify-content: space-between;
+}
+#service-container-11{
+    position: relative;
+    left: -80px;
+    width: 300px;
+    height: 24g0px;
+    border: 5px solid whitesmoke;
+    background-color: aliceblue;
+    padding: 10px;
+    box-shadow: 2px 2px 10px black ,  -2px -2px 10px black;
+    border-radius: 10px;
+}
+#service-container-11 i{
+    position: relative;
+    padding: 5px;
+    left: 100px;
+    bottom: 2px;
+}  
+#service-container-11 h3{
+    padding: 2px;
+    font-size:25px ;
+    text-align: center;
+    color:blue;
+}
+#service-container-11 p{
+    padding: 4px;
+    font-size:20px ;
+    text-align: center;
+}
+
+#service-container-12{
+    position: relative;
+    left: -25px;
+    width: 300px;
+    height: 240px;
+    border: 5px solid whitesmoke;
+    background-color: aliceblue;
+    padding: 10px;
+    box-shadow: 2px 2px 10px black ,  -2px -2px 10px black;
+    border-radius: 10px;
+}
+#service-container-12 i{
+    position: relative;
+    padding: 5px;
+    left: 100px;
+    bottom: 2px;
+}  
+#service-container-12 h3{
+    padding: 2px;
+    font-size:25px ;
+    text-align: center;
+    color: blue;
+}
+#service-container-12 p{
+    padding: 4px;
+    font-size:20px ;
+    text-align: center;
+}
+
+#service-container-13{
+    position: relative;
+    left:30px;
+    width: 300px;
+    height: 240px;
+    border: 5px solid whitesmoke;
+    background-color: aliceblue;
+    padding: 10px;
+    box-shadow: 2px 2px 10px black ,  -2px -2px 10px black;
+    border-radius: 10px;
+}
+#service-container-13 i{
+    position: relative;
+    padding: 5px;
+    left: 100px;
+    bottom: 2px;
+}  
+#service-container-13 h3{
+    padding: 2px;
+    font-size:25px ;
+    text-align: center;
+    color: blue;
+}
+#service-container-13 p{
+    padding: 4px;
+    font-size:20px ;
+    text-align: center;
+}
+
+#service-container-14{
+    position: relative;
+    left: 80px;
+    width: 300px;
+    height: 240px;
+    border: 5px solid whitesmoke;
+    background-color: aliceblue;
+    padding: 10px;
+    box-shadow: 2px 2px 10px black ,  -2px -2px 10px black;
+    border-radius: 10px;
+}
+#service-container-14 i{
+    position: relative;
+    padding: 10px;
+    left: 100px;
+    bottom: 2px;
+}  
+#service-container-14 h3{
+    padding: 2px;
+    font-size:25px ;
+    top: 10px;
+    text-align: center;
+    color: blue;
+}
+#service-container-14 p{
+    padding: 4px;
+    font-size:20px ;
+    text-align: center;
+}
+#service-container-11:hover{
+    transform: scale(1.2);
+}
+#service-container-12:hover{
+    transform: scale(1.2);
+}
+#service-container-13:hover{
+    transform: scale(1.2);
+}
+#service-container-14:hover{
+    transform: scale(1.2);
+}
+
+#Certificates {
+   position:relative ;
+   padding: 8px 10%;
+   width: 100%;
+   height: 380vh;
+}
+#certificate-container{
+    position: relative;
+    padding: auto;
+    top:60px ; 
+}
+#certificate-container h1{
+    position: relative;
+    left: 500px;
+    color:  rgb(12, 179, 245);
+    width: 150px;
+    top:40px ;
+    height: 20px;
+}
+/*#certificate-container h1:hover{
+    color: aqua;
+}*/
+#certificate-container-1{
+    position: relative;
+    top:100px ;
+    left: -60px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 1200px;
+}
+#certificate-container-1 img{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin: 20px;
+    border: 5px solid whitesmoke;
+    box-shadow: 2px 2px 10px red,  -2px -2px 10px red;
+    border-radius: 10px;
+}
+#Project{
+   position:relative ;
+   padding: 8px 10%;
+   width: 100%;
+   height: 100vh;
+}
+#project-container{
+    position: relative;
+    padding: auto;
+    top:60px ;
+}
+#project-container h1{
+    position: relative;
+    left: 500px;
+    color:  rgb(12, 179, 245);
+    width: 150px;
+    top:50px ;
+    height: 20px;
+}  
+/*#project-container h1:hover{
+    color: aqua;
+}*/
+#project-container-1{
+    position: relative;
+    top:180px;
+    display: flex;
+    justify-content: space-between;
+}
+#project-container-11{
+    position: relative;
+    left: -65px;
+    width: 600px;
+    height:270px;
+    border: 5px solid whitesmoke;
+    background-color: black;
+    padding: 10px;
+    box-shadow: 2px 2px 10px black ,  -2px -2px 10px black;
+    border-radius: 10px;
+}
+#project-container-11 a{
+    padding:5px;
+    position: relative;
+     left:85px;
+    top: 10px;
+}
+#project-container-11 a button{
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:whitesmoke;
+    color:red;
+    padding: 5px;
+}
+#project-container-11 p{
+    padding: 10px;
+    font-size:20px;
+    padding-top: 40px;
+    color: white;
+}
+
+#project-container-12{
+    position: relative;
+    left: -5px;
+    width: 600px;
+    height: 270px;
+    border: 5px solid whitesmoke;
+    background-color: black;
+    padding: 10px;
+    box-shadow: 2px 2px 10px black ,  -2px -2px 10px black;
+    border-radius: 10px;
+}
+#project-container-12 a{
+    padding:5px;
+    position: relative;
+    left: 65px;
+     top: 10px;
+}
+#project-container-12 a button{
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color:red;
+    padding: 5px;
+}
+#project-container-12 p{
+    padding: 10px;
+    padding-top: 40px;
+    font-size:20px;
+     color: white;
+}
+
+#project-container-13{
+    position: relative;
+    left: 60px;
+    width: 600px;
+    height: 270px;
+    border: 5px solid whitesmoke;
+    background-color: black;
+    padding: 10px;
+    box-shadow: 2px 2px 10px black ,  -2px -2px 10px black;
+    border-radius: 10px;
+}
+#project-container-13 a{
+    padding: 20px;
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+#project-container-13 a button{
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:whitesmoke;
+    color:red;
+    padding: 5px;
+}
+#project-container-13 p{
+    padding: 15px;
+    padding-top: 40px;
+    font-size:20px;
+    color: white;
+}
+#project-container-11 a button:hover{
+    color:  rgb(9, 160, 219);
+}
+#project-container-12 a button:hover{
+    color:  rgb(9, 160, 219);
+}
+#project-container-13 a button:hover{
+    color:  rgb(9, 160, 219);
+}
+#project-container-11:hover{
+    transform: scale(1.1);
+}
+#project-container-12:hover{
+    transform: scale(1.1);
+}
+#project-container-13:hover{
+    transform: scale(1.1);
+}
+#Contact{
+    position:relative ;
+   padding: 8px 10%;
+   width: 100%;
+   height: 103vh; 
+}
+#contact-container{
+    position: relative;
+    padding: auto;
+    top:80px ;
+}
+#contact-container h1{
+    position: relative;
+    left: 500px;
+    color: rgb(12, 179, 245);
+    width: 150px;
+    top:15px ;
+    height: 20px;
+}  
+/*#contact-container h1:hover{
+    color: aqua;
+}*/
+#contact-container-1{
+    position: relative;
+    top:50px;
+    display: flex;
+    justify-content: space-between;
+}
+#contact-container-11{
+    position: relative;
+    left: -65px;
+    width: 600px;
+    height:270px;
+    padding: 10px;
+}
+#contact-container-11 p{
+    position: relative;
+    font-size: 35px;
+    color:red;
+}
+#contact-container-11 h3{
+    position: relative;
+    top: 15px;
+    font-size: 30px;
+    padding: 10px;
+    color:green;
+}
+#contact-container-11 h3 i{
+    color: black;
+}
+#contact-container-11 a{
+    position: relative;
+    top:40px ;
+    left: 15px;
+   
+}
+#contact-container-11 a i{
+    padding: 10px;
+}
+#contact-container-11 a i img{
+    background-color:palevioletred;
+    border-radius: 15px;
+    border: 2px solid whitesmoke;
+    box-shadow: 2px 2px 8px blue , -2px -2px 8px blue;
+}
+#contact-container-11 a i img:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+}
+#contact-container-12{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    top: 5px;
+    padding: 5px;
+    left:30px
+}
+#contact-container-12 input{
+    padding: 5px;
+    margin: 10px;
+    width: 540px;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    box-shadow: 2px 2px 5px black ,  -2px -2px 5px black;
+}
+#textarea{
+    position: relative;
+    left: 11px;
+    top: 10px;
+    height: 180px;
+    width: 540px;
+    padding: 10px;
+    font-size: 18px;
+    resize: none;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    box-shadow: 2px 2px 5px black ,  -2px -2px 5px black;
+}
+#contact-container-12 button{
+    padding: 5px;
+    position: relative;
+    left:10px ;
+    top:30px;
+    border-radius:10px ;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    background-color: rgb(15, 160, 218);
+    border: 2px solid whitesmoke;
+    box-shadow: 2px 2px 5px black,  -2px -2px 5px blue;
+}
+#contact-container-12 button:hover{
+    color: aqua;
+    background-color: black;
+}
+#end-button {
+    padding: 5px;
+    position: relative;
+    left:80px ;
+    top:370px;
+    border-radius:50px ;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    background-color: rgb(15, 160, 218);
+    border: 2px solid whitesmoke;
+    box-shadow: 2px 2px 5px black,  -2px -2px 5px blue;
+}
+#end-button:hover{
+    color: aqua;
+    background-color: black;
+}
+
+
+
+
+/* ========== MEDIA QUERIES ========== */
+
+/* For tablets (768px to 992px) */
+@media (max-width: 992px) {
+    #header {
+        flex-direction: column;
+        padding: 15px 5%;
+        text-align: center;
+    }
+    
+    #navbar {
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #navbar a {
+        margin: 5px 10px;
+        font-size: 18px;
+    }
+    
+    #Home {
+        padding: 120px 5% 50px;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #home-container {
+        text-align: center;
+    }
+    
+    #home-container img {
+        position: static;
+        margin: 30px auto;
+        display: block;
+        width: 80%;
+        max-width: 400px;
+        height: auto;
+    }
+    
+    #home-container p {
+        width: 100%;
+        left: 0;
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    
+    #button-control-1,
+    #button-control-2,
+    #button-control-3 {
+        position: static;
+        margin: 10px auto;
+        display: inline-block;
+        width: auto;
+        padding: 8px 15px;
+    }
+    
+    #about-container h1,
+    #service-container h1,
+    #certificate-container h1,
+    #project-container h1,
+    #contact-container h1 {
+        left: 0;
+        margin: 0 auto 30px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    #about-container img {
+        position: static;
+        width: 80%;
+        max-width: 450px;
+        height: auto;
+        margin: 0 auto 30px;
+        display: block;
+    }
+    
+    #about-container p,
+    #about-container h3,
+    #front,
+    #back,
+    #tools {
+        left: 0;
+        text-align: center;
+        width: 100%;
+        padding: 0 10px;
+    }
+    
+    #service-container-1,
+    #project-container-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #service-container-11,
+    #service-container-12,
+    #service-container-13,
+    #service-container-14,
+    #project-container-11,
+    #project-container-12,
+    #project-container-13 {
+        position: static;
+        margin: 0 auto 30px;
+        width: 80%;
+        max-width: 500px;
+    }
+    
+    #certificate-container-1 {
+        width: 100%;
+        left: 0;
+        padding: 0;
+    }
+    
+    #certificate-container-1 img {
+        width: 90%;
+        max-width: 500px;
+        height: auto;
+        margin: 10px auto;
+    }
+    
+    #contact-container-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #contact-container-11,
+    #contact-container-12 {
+        width: 90%;
+        max-width: 600px;
+        left: 0;
+        margin: 0 auto 30px;
+        text-align: center;
+    }
+    
+    #contact-container-12 input,
+    #textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    #end-button {
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 20px;
+    }
+}
+
+/* For mobile devices (up to 768px) */
+@media (max-width: 768px) {
+    #navbar a {
+        font-size: 16px;
+        margin: 5px 8px;
+    }
+    
+    #home-container h3 {
+        font-size: 22px;
+    }
+    
+    #home-container span {
+        font-size: 28px;
+    }
+    
+    #home-container p {
+        font-size: 18px;
+    }
+    
+    #about-container p {
+        font-size: 18px;
+    }
+    
+    #front,
+    #back,
+    #tools {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    
+    #service-container-11,
+    #service-container-12,
+    #service-container-13,
+    #service-container-14 {
+        height: auto;
+        padding: 20px;
+    }
+    
+    #Certificates {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    
+    #project-container-11,
+    #project-container-12,
+    #project-container-13 {
+        height: auto;
+        padding: 20px;
+    }
+    
+    #project-container-11 a,
+    #project-container-12 a,
+    #project-container-13 a {
+        left: 0;
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    #contact-container-11 p {
+        font-size: 24px;
+    }
+    
+    #contact-container-11 h3 {
+        font-size: 18px;
+    }
+    
+    #contact-container-11 a i img {
+        width: 40px;
+        height: 40px;
+        margin: 0 5px;
+    }
+    
+    #textarea {
+        height: 150px;
+    }
+}
+
+/* For small mobile devices (up to 576px) */
+@media (max-width: 576px) {
+    #header {
+        padding: 10px 3%;
+    }
+    
+    #navbar a {
+        font-size: 14px;
+        margin: 3px 5px;
+    }
+    
+    #Home {
+        padding: 100px 3% 30px;
+    }
+    
+    #home-container h3 {
+        font-size: 20px;
+    }
+    
+    #home-container span {
+        font-size: 24px;
+    }
+    
+    #home-container p {
+        font-size: 16px;
+    }
+    
+    #home-container img {
+        width: 90%;
+    }
+    
+    #about-container img {
+        width: 95%;
+    }
+    
+    #about-container p {
+        font-size: 16px;
+    }
+    
+    #service-container-11,
+    #service-container-12,
+    #service-container-13,
+    #service-container-14 {
+        width: 95%;
+    }
+    
+    #project-container-11,
+    #project-container-12,
+    #project-container-13 {
+        width: 95%;
+    }
+    
+    #contact-container-11 p {
+        font-size: 20px;
+    }
+    
+    #contact-container-11 h3 {
+        font-size: 16px;
+    }
+    
+    #contact-container-11 a i img {
+        width: 35px;
+        height: 35px;
+    }
+    
+    #contact-container-12 {
+        width: 95%;
+    }
+    
+    #button-control-1,
+    #button-control-2,
+    #button-control-3 {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+}
+
+/* For very small devices (up to 400px) */
+@media (max-width: 400px) {
+    #navbar a {
+        font-size: 12px;
+        margin: 2px 3px;
+    }
+    
+    #home-container span {
+        font-size: 22px;
+    }
+    
+    #home-container p {
+        font-size: 15px;
+    }
+    
+    #about-container p {
+        font-size: 15px;
+    }
+    
+    #contact-container-11 p {
+        font-size: 18px;
+    }
+    
+    #contact-container-11 h3 {
+        font-size: 14px;
+    }
+    
+    #contact-container-11 a i img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    #textarea {
+        height: 120px;
+    }
+}
